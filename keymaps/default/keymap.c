@@ -1,4 +1,4 @@
-/* Copyright 2020 floookay
+/* Copyright 2021 dcpedit
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -44,10 +44,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   )
 };
 
-void encoder_update_user(uint8_t index, bool clockwise) {
+bool encoder_update_user(uint8_t index, bool clockwise) {
     if (clockwise) {
       tap_code(KC_VOLU);
     } else {
       tap_code(KC_VOLD);
     }
+    return true;
 }
