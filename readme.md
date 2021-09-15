@@ -1,12 +1,11 @@
-# 𝔄𝔡𝔢𝔩𝔥𝔢𝔦𝔡
+# 𝔄𝔡𝔢𝔩𝔥𝔢𝔦𝔡 Plus Firmware
 
-![Adelheid](https://gist.githubusercontent.com/floookay/7bf6511a8d84804d32de4d7bbe3bd0fb/raw/559336bcb5f8c04bbea9ad8aab7397812ab72859/adelheid.jpg)
+The Adelheid Plus is a 75% Alice-like keyboard. It's a fork of [Adelheid](https://github.com/floookay/adelheid) by floookay.
 
-The Adelheid is a 75% Alice-like keyboard. It's a fork of the [Arisu](https://github.com/FateNozomi/arisu-pcb) by FateNozomi and is open-source as well.
-
-* Keyboard Maintainer: [floookay](https://github.com/floookay)
-* Hardware Supported: Adelheid PCB [Rev2.0]
-* Hardware Availability: [PCB-, case- &amp; wrist rest files](https://github.com/floookay/adelheid)
+* Add support for 2U backspace
+* Add support for rotary encoder
+* Add support for extra "B" key
+* Add support for VIAL
 
 Make example for this keyboard (after setting up your build environment):
 
